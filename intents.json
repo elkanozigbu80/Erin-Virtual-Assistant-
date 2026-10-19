@@ -1,0 +1,132 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "Is anyone there?", "Hey","Hi", "Hola", "Hello", "Good day","Good morning"],
+      "responses": [
+        "Hello!", 
+        "Good to see you again!", 
+        "Hi there, how can I help?", 
+        "Hey! What's up?", 
+        "Hola! How can I assist you today?", 
+        "Hi, nice to meet you!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","quit", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "end", "sayonara"],
+      "responses": [
+        "See you!", 
+        "Have a nice day.", 
+        "Bye! Come back again soon.", 
+        "Take care!", 
+        "Goodbye! Hope to talk again soon.", 
+        "Sayonara! Till next time!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": [
+        "My pleasure.", 
+        "You're welcome!", 
+        "No problem at all.", 
+        "Happy to help!", 
+        "Glad I could assist.", 
+        "Anytime! I'm here to help."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "trivia",
+      "patterns": ["What is the big bang?", "Tell me about the big bang?", "Tell me some trivia", "Can I get some trivia?", "Tell me something interesting"],
+      "responses": [
+        "The Big Bang theory explains how the universe expanded from a single point.",
+        "Bananas are berries, but strawberries aren't.",
+        "A day on Venus is longer than a year on Venus.",
+        "Honey never spoils and can be eaten even after thousands of years.",
+        "The shortest war in history lasted only 38 to 45 minutes.",
+        "There are more stars in the universe than grains of sand on Earth.",
+        "Octopuses have three hearts and blue blood.",
+        "The Eiffel Tower can be 15 cm taller during summer.",
+        "Cleopatra lived closer to the Moon landing than to the Great Pyramid's construction.",
+        "Wombat poop is cube-shaped!",
+        "The name 'Jessica' was created by Shakespeare in 'The Merchant of Venice'.",
+        "An octopus has nine brains.",
+        "A group of flamingos is called a 'flamboyance'.",
+        "Sea otters hold hands while sleeping to stay together.",
+        "Humans share 60% of their DNA with bananas.",
+        "A single strand of spaghetti is called a 'spaghetto'.",
+        "Sharks existed before trees.",
+        "Sloths can hold their breath longer than dolphins.",
+        "Water can boil and freeze at the same time under certain conditions.",
+        "A blue whale's heart is the size of a small car."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "unsure",
+      "patterns": [""],
+      "responses": [
+        "Sorry, I didn't get that.", 
+        "Could you rephrase?", 
+        "Come again?", 
+        "I’m not sure I understand.", 
+        "Can you say that in another way?", 
+        "I didn't catch that. Could you try again?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "convo",
+      "patterns": ["How are you?", "How are you doing?", "How's your day?", "What's up?"],
+      "responses": [
+        "I'm great, what about you?", 
+        "I'm fine, thanks!", 
+        "I'm just here to help you!", 
+        "I'm a robot, I don't have a day.", 
+        "I'm doing well! How about you?", 
+        "Feeling productive! What's on your mind?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "schedule",
+      "patterns": ["Schedule an", "Schedule my", "Schedule", "Schedule an appointment", "Schedule a birthday", "Schedule my football", "Schedule Davey's game", "Schedule from 2pm to 5pm"],
+      "responses": [
+        "Okay, on it!", 
+        "Will do!", 
+        "Of course!", 
+        "Consider it done.", 
+        "Got it! Your schedule is updated.", 
+        "All set! Anything else to add?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "clear",
+      "patterns": [
+        "Cancel all my appointments",
+        "Clear my schedule",
+        "Wipe my calendar clean",
+        "Free up my day",
+        "Clear the agenda"
+      ],
+      "responses": [
+        "Okay, on it!", 
+        "Will do!", 
+        "Of course!", 
+        "You got it!", 
+        "Done! All cleared up.", 
+        "Consider it cleared!", 
+        "All your commitments are removed. You're free now!"
+      ],
+      "context": [""]
+    }
+  ]
+}
+
+
